@@ -39,7 +39,7 @@ nav {
 
 .italic {
   font-family: "The Nautigal", cursive !important;
-  font-size: 100px !important;
+  font-size: 80px !important;
   font-weight: bolder !important;
 }
 
@@ -166,7 +166,7 @@ ul li {
 .doctor {
   position: relative;
   z-index: 1;
-  max-width: 420px;
+  max-width: 380px;
   height: auto;
   object-fit: contain;
   /* subtle lift */
