@@ -763,10 +763,11 @@ ul li {
   background-size: contain !important;
   background-position: center;
   position: relative;
+  padding-right: 10px;
 }
 
 .card-design {
-  width: 70%;
+  width: 75%;
   margin: auto;
   text-align: left !important;
 }
@@ -774,4 +775,17 @@ ul li {
 .text-small {
   font-size: 12px !important;
   text-transform: uppercase;
+}
+
+.header-review {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .review-text {
+    font-size: 90% !important;
+  }
+  .header-review {
+    font-size: 90%;
+  }
 }
