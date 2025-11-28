@@ -667,7 +667,7 @@ ul li {
 .testimonial {
   background: #fff;
   text-align: center;
-  padding: 30px 30px 50px;
+  padding: 30px 30px 30px 30px;
   margin: 0 15px 100px;
   position: relative;
 }
@@ -688,7 +688,7 @@ ul li {
 }
 .testimonial .icon {
   display: inline-block;
-  font-size: 80px;
+  font-size: 40px;
   color: #bd986b;
   margin-bottom: 20px;
   opacity: 0.6;
@@ -753,4 +753,25 @@ ul li {
   .testimonial:after {
     border-left: 325px solid transparent;
   }
+}
+
+.review-bg {
+  background-image: url("./img/bg.png");
+  /* width: 350px !important; */
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  background-position: center;
+  position: relative;
+}
+
+.card-design {
+  width: 70%;
+  margin: auto;
+  text-align: left !important;
+}
+
+.text-small {
+  font-size: 12px !important;
+  text-transform: uppercase;
 }
